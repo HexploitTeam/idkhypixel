@@ -1,0 +1,217 @@
+items:
+  # SPEED FAMILY
+  - id: "aethersky:speed_talisman"
+    type: TALISMAN
+    material: SUGAR
+    display:
+      name: "Speed Talisman"
+      rarity: COMMON
+      description:
+        - "<gray>A small pouch filled with refined sugar crystals."
+    tier: 1
+    stats:
+      "aethersky:speed": 3.0
+    tags: [ACCESSORY, "family:speed"]
+
+  - id: "aethersky:speed_ring"
+    type: RING
+    material: SUGAR
+    display:
+      name: "Speed Ring"
+      rarity: UNCOMMON
+      description:
+        - "<gray>A polished brass ring that boosts agility."
+    tier: 2
+    stats:
+      "aethersky:speed": 6.0
+    tags: [ACCESSORY, "family:speed"]
+
+  - id: "aethersky:speed_artifact"
+    type: ARTIFACT
+    material: SUGAR
+    display:
+      name: "Speed Artifact"
+      rarity: RARE
+      description:
+        - "<gray>An ancient relic resonating with supersonic vibrations."
+    tier: 3
+    stats:
+      "aethersky:speed": 12.0
+    tags: [ACCESSORY, "family:speed"]
+
+  # FEROCITY FAMILY
+  - id: "aethersky:ferocity_talisman"
+    type: TALISMAN
+    material: FLINT
+    display:
+      name: "Ferocity Talisman"
+      rarity: RARE
+      description:
+        - "<gray>Carved from the tooth of a bloodthirsty wolf."
+    tier: 3
+    stats:
+      "aethersky:ferocity": 3.0
+      "aethersky:strength": 5.0
+    tags: [ACCESSORY, "family:ferocity"]
+
+  - id: "aethersky:ferocity_ring"
+    type: RING
+    material: FLINT
+    display:
+      name: "Ferocity Ring"
+      rarity: EPIC
+      description:
+        - "<gray>Radiates primal bloodlust."
+    tier: 4
+    stats:
+      "aethersky:ferocity": 8.0
+      "aethersky:strength": 12.0
+    tags: [ACCESSORY, "family:ferocity"]
+
+  # COMBAT & SLAYER ACCESSORIES
+  - id: "aethersky:zombie_artifact"
+    type: ARTIFACT
+    material: ROTTEN_FLESH
+    display:
+      name: "Zombie Artifact"
+      rarity: RARE
+      description:
+        - "<gray>Reduces damage taken from Undead monsters by 15%."
+    tier: 3
+    stats:
+      "aethersky:health": 30.0
+      "aethersky:defense": 15.0
+    tags: [ACCESSORY, "family:zombie"]
+
+  - id: "aethersky:devourer_ring"
+    type: RING
+    material: NETHER_STAR
+    display:
+      name: "Ring of the Abyssal Devourer"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Grants +5 Health Regeneration per second in combat."
+    tier: 5
+    stats:
+      "aethersky:health": 60.0
+      "aethersky:strength": 20.0
+      "aethersky:crit_damage": 15.0
+    tags: [ACCESSORY, "family:devourer"]
+
+  - id: "aethersky:auto_recombobulator"
+    type: TALISMAN
+    material: DROPPER
+    display:
+      name: "Auto-Recombobulator"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Automatically has a 1% chance to recombobulate dungeon drops."
+    tier: 5
+    stats:
+      "aethersky:magic_find": 5.0
+      "aethersky:pet_luck": 5.0
+    tags: [ACCESSORY, "family:auto_recom"]
+
+  - id: "aethersky:seal_of_the_family"
+    type: ARTIFACT
+    material: GOLD_NUGGET
+    display:
+      name: "Imperial Seal of the High Dynasties"
+      rarity: MYTHIC
+      description:
+        - "<light_purple>Gives +5% discount at all server merchants and NPCs."
+    tier: 6
+    stats:
+      "aethersky:intelligence": 30.0
+      "aethersky:magic_find": 10.0
+      "aethersky:true_defense": 5.0
+    tags: [ACCESSORY, "family:seal"]
+
+  # MINING ACCESSORIES
+  - id: "aethersky:prospector_talisman"
+    type: TALISMAN
+    material: RAW_COPPER
+    display:
+      name: "Prospector's Lucky Talisman"
+      rarity: UNCOMMON
+      description:
+        - "<gray>A carved piece of lucky copper ore."
+    tier: 2
+    stats:
+      "aethersky:mining_fortune": 15.0
+      "aethersky:mining_speed": 30.0
+    tags: [ACCESSORY, "family:prospector"]
+
+  - id: "aethersky:mithril_ring"
+    type: RING
+    material: PRISMARINE_SHARD
+    display:
+      name: "Ring of Mithril Veins"
+      rarity: RARE
+      description:
+        - "<gray>Imbued with sparkling blue mithril power."
+    tier: 3
+    stats:
+      "aethersky:mining_fortune": 30.0
+      "aethersky:mining_speed": 75.0
+    tags: [ACCESSORY, "family:mithril_acc"]
+
+  # MANA ACCESSORIES
+  - id: "aethersky:mana_talisman"
+    type: TALISMAN
+    material: LAPIS_LAZULI
+    display:
+      name: "Arcane Mana Talisman"
+      rarity: RARE
+      description:
+        - "<gray>Enhances mana pool capacity."
+    tier: 3
+    stats:
+      "aethersky:intelligence": 50.0
+      "aethersky:magic_damage": 10.0
+    tags: [ACCESSORY, "family:mana_acc"]
+
+  - id: "aethersky:archmage_artifact"
+    type: ARTIFACT
+    material: AMETHYST_SHARD
+    display:
+      name: "Artifact of the Archmage"
+      rarity: EPIC
+      description:
+        - "<dark_purple>Increases total spell damage by +8%."
+    tier: 4
+    stats:
+      "aethersky:intelligence": 120.0
+      "aethersky:magic_damage": 25.0
+      "aethersky:ability_damage": 5.0
+    tags: [ACCESSORY, "family:archmage_acc"]
+
+  # DEFENSE & SLAYER ACCESSORIES
+  - id: "aethersky:ironbark_talisman"
+    type: TALISMAN
+    material: OAK_LOG
+    display:
+      name: "Ironbark Bark Shield"
+      rarity: UNCOMMON
+      description:
+        - "<gray>Hardened bark reducing taken damage."
+    tier: 2
+    stats:
+      "aethersky:health": 25.0
+      "aethersky:defense": 15.0
+    tags: [ACCESSORY, "family:ironbark_acc"]
+
+  - id: "aethersky:spider_talisman"
+    type: TALISMAN
+    material: SPIDER_EYE
+    display:
+      name: "Webbed Spider Ring"
+      rarity: RARE
+      description:
+        - "<gray>Reduces damage taken from arachnids by 10%."
+    tier: 3
+    stats:
+      "aethersky:crit_chance": 5.0
+      "aethersky:crit_damage": 15.0
+    tags: [ACCESSORY, "family:spider_acc"]
+

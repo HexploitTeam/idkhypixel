@@ -1,0 +1,153 @@
+items:
+  - id: "aethersky:hot_potato_book"
+    type: UPGRADE_MODULE
+    material: BOOK
+    display:
+      name: "Hot Potato Book"
+      rarity: RARE
+      description:
+        - "<gray>Permanently applies +2 Damage & +2 Strength on weapons,"
+        - "<gray>or +4 Health & +2 Defense on armor."
+        - "<dark_gray>(Max 10 per item)"
+    tier: 3
+    economy:
+      buy_price: 60000.0
+      sell_price: 20000.0
+    tags: [UPGRADE, HPB]
+
+  - id: "aethersky:fuming_potato_book"
+    type: UPGRADE_MODULE
+    material: ENCHANTED_BOOK
+    display:
+      name: "Fuming Potato Book"
+      rarity: EPIC
+      description:
+        - "<gray>Applies 5 additional potato book bonuses beyond the normal 10 limit."
+    tier: 4
+    economy:
+      buy_price: 350000.0
+      sell_price: 100000.0
+    tags: [UPGRADE, FPB]
+
+  - id: "aethersky:recombobulator_3000"
+    type: UPGRADE_MODULE
+    material: DROPPER
+    display:
+      name: "Recombobulator 3000"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Upgrades the rarity tier of an item by one stage."
+        - "<gray>Works on Weapons, Armor, Tools, and Accessories."
+    tier: 5
+    economy:
+      buy_price: 6000000.0
+      sell_price: 2000000.0
+    tags: [UPGRADE, RECOMBOBULATOR]
+
+  # MASTER STARS
+  - id: "aethersky:master_star_1"
+    type: UPGRADE_MODULE
+    material: NETHER_STAR
+    display:
+      name: "First Master Star"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Upgrades dungeon items beyond 5 stars into Master Dungeon Tier 1."
+        - "<gray>Boosts stats by +5% per Master Star in Master Catacombs."
+    tier: 5
+    dungeon_item: true
+    economy:
+      buy_price: 12000000.0
+      sell_price: 4000000.0
+    tags: [UPGRADE, MASTER_STAR]
+
+  - id: "aethersky:master_star_2"
+    type: UPGRADE_MODULE
+    material: NETHER_STAR
+    display:
+      name: "Second Master Star"
+      rarity: MYTHIC
+      description:
+        - "<light_purple>Upgrades Master Dungeon Tier 1 items to Tier 2."
+    tier: 6
+    dungeon_item: true
+    economy:
+      buy_price: 25000000.0
+      sell_price: 8000000.0
+    tags: [UPGRADE, MASTER_STAR]
+
+  # UTILITY UPGRADES
+  - id: "aethersky:gemstone_remover"
+    type: UPGRADE_MODULE
+    material: SHEARS
+    display:
+      name: "Dwarven Gemstone Remover"
+      rarity: RARE
+      description:
+        - "<gray>Safely extracts applied gemstones from item sockets."
+    tier: 3
+    economy:
+      buy_price: 50000.0
+      sell_price: 15000.0
+    tags: [UPGRADE, GEMSTONE_TOOL]
+
+  - id: "aethersky:art_of_war"
+    type: UPGRADE_MODULE
+    material: BOOK
+    display:
+      name: "The Art of War"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Permanently grants +5 Strength to any melee weapon."
+    tier: 5
+    economy:
+      buy_price: 15000000.0
+      sell_price: 5000000.0
+    tags: [UPGRADE, BOOK]
+
+  # ENCHANTED BOOKS
+  - id: "aethersky:enchanted_book_sharpness_5"
+    type: ENCHANTED_BOOK
+    material: ENCHANTED_BOOK
+    display:
+      name: "Enchanted Book: Sharpness V"
+      rarity: RARE
+      description:
+        - "<blue>Sharpness V</blue>"
+        - "<gray>Increases melee damage by +25%."
+    tier: 3
+    economy:
+      buy_price: 150000.0
+      sell_price: 40000.0
+    tags: [ENCHANTMENT, BOOK]
+
+  - id: "aethersky:enchanted_book_growth_5"
+    type: ENCHANTED_BOOK
+    material: ENCHANTED_BOOK
+    display:
+      name: "Enchanted Book: Growth V"
+      rarity: RARE
+      description:
+        - "<blue>Growth V</blue>"
+        - "<gray>Grants +75 Health on armor."
+    tier: 3
+    economy:
+      buy_price: 150000.0
+      sell_price: 40000.0
+    tags: [ENCHANTMENT, BOOK]
+
+  - id: "aethersky:enchanted_book_ultimate_wise_5"
+    type: ENCHANTED_BOOK
+    material: ENCHANTED_BOOK
+    display:
+      name: "Enchanted Book: Ultimate Wise V"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Ultimate Wise V</gold>"
+        - "<gray>Reduces ability mana cost by 50%."
+    tier: 5
+    economy:
+      buy_price: 10000000.0
+      sell_price: 3000000.0
+    tags: [ENCHANTMENT, BOOK, ULTIMATE]
+

@@ -1,0 +1,19 @@
+npcs:
+  - id: "aethersky:guide"
+    name: "<gold>Aether Guide Alden</gold>"
+    skin: "villager"
+    dialogue:
+      greeting:
+        - "<gold>Alden:</gold> <white>Welcome to the Aether realm, adventurer!</white>"
+        - "<gold>Alden:</gold> <white>Take this training sword and test your might on the training dummy.</white>"
+    action: "GIVE_STARTER_KIT"
+    starter_item: "aethersky:starter_sword"
+
+  - id: "aethersky:blacksmith"
+    name: "<aqua>Blacksmith Korin</aqua>"
+    skin: "villager"
+    dialogue:
+      greeting:
+        - "<aqua>Korin:</aqua> <white>Need stronger steel? Browse my wares or bring me monster fangs!</white>"
+    action: "OPEN_SHOP"
+    target_shop: "aethersky:blacksmith_shop"

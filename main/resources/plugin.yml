@@ -1,0 +1,63 @@
+name: AetherSky
+version: '${version}'
+main: com.hexploit.aethercore.AetherCorePlugin
+api-version: '1.21'
+description: '${description}'
+author: HexploitTeam
+website: https://github.com/HexploitTeam/MiniSky
+
+commands:
+  aethersky:
+    description: Core developer and admin command for AetherSky MMORPG Engine.
+    usage: /<command> [subcommand]
+    permission: aethersky.admin
+    aliases:
+      - as
+      - aether
+      - aethercore
+      - ac
+  asedit:
+    description: Comprehensive in-game MMORPG content generator and editor GUI.
+    usage: /<command> [subcommand]
+    permission: aethersky.editor.admin
+    aliases:
+      - aseditor
+      - acedit
+      - aceditor
+      - aetheredit
+      - contenteditor
+
+permissions:
+  aethersky.admin:
+    description: Grants full administrative access to AetherSky commands and debugging.
+    default: op
+  aethersky.use:
+    description: Allows normal players to interact with AetherSky systems.
+    default: true
+  aethersky.editor.admin:
+    description: Grants full administrative access to the Content Generator and Editor.
+    default: op
+  aethersky.editor.view:
+    description: View-only access to the Content Generator and Editor.
+    default: op
+  aethersky.editor.create:
+    description: Allows creating new drafts.
+    default: op
+  aethersky.editor.edit:
+    description: Allows editing drafts.
+    default: op
+  aethersky.editor.delete:
+    description: Allows deleting content.
+    default: op
+  aethersky.editor.spawn:
+    description: Allows preview spawning content.
+    default: op
+  aethercore.admin:
+    description: Legacy permission alias for AetherSky admin.
+    default: op
+  aethercore.use:
+    description: Legacy permission alias for AetherSky user.
+    default: true
+  aethercore.editor.admin:
+    description: Legacy permission alias for Content Editor admin.
+    default: op

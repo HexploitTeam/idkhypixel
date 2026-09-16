@@ -1,0 +1,31 @@
+# AetherSky Configuration File
+# Modern Minecraft Paper 26.1.2 MMORPG Framework
+# Creator: HexploitTeam | GitHub: https://github.com/HexploitTeam/MiniSky
+
+database:
+  type: SQLITE
+  sqlite:
+    file: "aethersky.db"
+  pool:
+    maximum-pool-size: 10
+    connection-timeout-ms: 30000
+
+combat:
+  base-crit-chance: 30.0
+  base-crit-damage: 50.0
+  defense-reduction-constant: 100.0 # Formula: damageReduction = defense / (defense + 100)
+  action-bar-damage-indicators: true
+  hologram-damage-indicators: true
+
+economy:
+  default-currency: "coins"
+  allow-negative-balance: false
+
+autosave:
+  enabled: true
+  interval-seconds: 300 # 5 minutes
+
+debug:
+  verbose-logging: true
+  log-damage-calculations: false
+  show-lore-pdc-tags: false

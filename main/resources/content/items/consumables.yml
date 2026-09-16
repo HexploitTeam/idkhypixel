@@ -1,0 +1,145 @@
+items:
+  - id: "aethersky:god_potion"
+    type: POTION
+    material: POTION
+    display:
+      name: "God Potion of the Ascended"
+      rarity: SPECIAL
+      description:
+        - "<gold>Grants all standard positive potion buffs for 24 hours."
+    tier: 5
+    max_stack_size: 16
+    economy:
+      buy_price: 1000000.0
+      sell_price: 250000.0
+    tags: [CONSUMABLE, POTION]
+
+  - id: "aethersky:booster_cookie"
+    type: BOOSTER
+    material: COOKIE
+    display:
+      name: "Booster Cookie"
+      rarity: SPECIAL
+      description:
+        - "<gold>Grants flight on private islands, +20% Skill EXP, and keeps coins on death for 4 days."
+    tier: 5
+    max_stack_size: 64
+    economy:
+      buy_price: 3500000.0
+      sell_price: 1000000.0
+    tags: [CONSUMABLE, BOOSTER]
+
+  - id: "aethersky:greater_healing_potion"
+    type: POTION
+    material: SPLASH_POTION
+    display:
+      name: "Greater Healing Potion"
+      rarity: UNCOMMON
+      description:
+        - "<gray>Instantly restores 200 Health and grants Regeneration II."
+    tier: 2
+    stats:
+      "aethersky:health": 200.0
+    max_stack_size: 16
+    economy:
+      buy_price: 500.0
+      sell_price: 100.0
+    tags: [CONSUMABLE, POTION]
+
+  - id: "aethersky:mana_elixir"
+    type: ELIXIR
+    material: DRAGON_BREATH
+    display:
+      name: "Concentrated Mana Elixir"
+      rarity: RARE
+      description:
+        - "<gray>Instantly restores 350 Mana."
+    tier: 3
+    stats:
+      "aethersky:intelligence": 350.0
+    max_stack_size: 16
+    economy:
+      buy_price: 2500.0
+      sell_price: 500.0
+    tags: [CONSUMABLE, ELIXIR]
+
+  # REFORGE STONES
+  - id: "aethersky:reforge_stone_dragon_horn"
+    type: REFORGE_STONE
+    material: DRAGON_HEAD
+    display:
+      name: "Reforge Stone: Dragon Horn"
+      rarity: EPIC
+      description:
+        - "<dark_purple>Reforges swords/bows to the <gold>Renowned</gold> reforge."
+        - "<gray>Grants +50 Strength, +30 Crit Damage, and +5 Ferocity."
+    tier: 4
+    max_stack_size: 16
+    economy:
+      buy_price: 2000000.0
+      sell_price: 500000.0
+    tags: [REFORGE_STONE, UPGRADE]
+
+  - id: "aethersky:reforge_stone_wither_claw"
+    type: REFORGE_STONE
+    material: WITHER_SKELETON_SKULL
+    display:
+      name: "Reforge Stone: Wither Claw"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Reforges weapons to the <dark_purple>Withered</dark_purple> reforge."
+        - "<gray>Grants +120 Strength scaled with your Catacombs level."
+    tier: 5
+    max_stack_size: 16
+    economy:
+      buy_price: 8000000.0
+      sell_price: 2500000.0
+    tags: [REFORGE_STONE, UPGRADE]
+
+  - id: "aethersky:reforge_stone_mining_chisel"
+    type: REFORGE_STONE
+    material: FLINT
+    display:
+      name: "Reforge Stone: Dwarven Chisel"
+      rarity: RARE
+      description:
+        - "<gray>Reforges pickaxes/drills to the <blue>Fleet</blue> reforge."
+        - "<gray>Grants +120 Mining Speed and +25 Mining Fortune."
+    tier: 3
+    max_stack_size: 16
+    economy:
+      buy_price: 350000.0
+      sell_price: 100000.0
+    tags: [REFORGE_STONE, UPGRADE]
+
+  # ELIXIRS & DUNGEON KEYS
+  - id: "aethersky:strength_potion_v"
+    type: POTION
+    material: POTION
+    display:
+      name: "Strength Potion V"
+      rarity: RARE
+      description:
+        - "<gray>Grants +50 Strength for 1 hour."
+    tier: 3
+    max_stack_size: 16
+    economy:
+      buy_price: 5000.0
+      sell_price: 1000.0
+    tags: [CONSUMABLE, POTION]
+
+  - id: "aethersky:catacombs_floor1_key"
+    type: KEY
+    material: TRIPWIRE_HOOK
+    display:
+      name: "Catacombs Floor I Key"
+      rarity: UNCOMMON
+      description:
+        - "<gray>Unlocks entry gate to Floor I of the Catacombs."
+    tier: 2
+    max_stack_size: 64
+    economy:
+      buy_price: 1000.0
+      sell_price: 200.0
+    tags: [KEY, DUNGEON]
+

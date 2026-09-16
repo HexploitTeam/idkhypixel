@@ -1,0 +1,25 @@
+recipes:
+  - id: "aethersky:shadowguard_helmet_crafting"
+    type: SHAPED
+    pattern:
+      - "FFF"
+      - "F F"
+      - "   "
+    ingredients:
+      F: "aethersky:shadow_fang"
+    result:
+      item: "aethersky:shadowguard_helmet"
+      amount: 1
+
+  - id: "aethersky:void_blade_crafting"
+    type: SHAPED
+    pattern:
+      - " V "
+      - " V "
+      - " S "
+    ingredients:
+      V: "aethersky:void_fragment"
+      S: "minecraft:stick"
+    result:
+      item: "aethersky:void_blade"
+      amount: 1

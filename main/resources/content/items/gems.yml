@@ -1,0 +1,152 @@
+items:
+  # RUBY GEMS (Health)
+  - id: "aethersky:rough_ruby_gem"
+    type: GEM
+    material: REDSTONE
+    display:
+      name: "Rough Ruby Gemstone"
+      rarity: COMMON
+      description:
+        - "<gray>Socket into a Defensive slot for +5 ❤ Health."
+    tier: 1
+    economy:
+      sell_price: 100.0
+    tags: [GEM, RUBY, ROUGH]
+
+  - id: "aethersky:flawless_ruby_gem"
+    type: GEM
+    material: REDSTONE_BLOCK
+    display:
+      name: "Flawless Ruby Gemstone"
+      rarity: EPIC
+      description:
+        - "<dark_purple>Socket into a Defensive slot for +40 ❤ Health."
+    tier: 4
+    economy:
+      sell_price: 250000.0
+    tags: [GEM, RUBY, FLAWLESS]
+
+  - id: "aethersky:perfect_ruby_gem"
+    type: GEM
+    material: REDSTONE_BLOCK
+    display:
+      name: "Perfect Ruby Gemstone"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Socket into a Defensive slot for +75 ❤ Health."
+    tier: 5
+    economy:
+      sell_price: 1500000.0
+    tags: [GEM, RUBY, PERFECT]
+
+  # JASPER GEMS (Strength)
+  - id: "aethersky:perfect_jasper_gem"
+    type: GEM
+    material: FIRE_CHARGE
+    display:
+      name: "Perfect Jasper Gemstone"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Socket into a Combat slot for +30 ❁ Strength."
+    tier: 5
+    economy:
+      sell_price: 2500000.0
+    tags: [GEM, JASPER, PERFECT]
+
+  # SAPPHIRE GEMS (Intelligence)
+  - id: "aethersky:perfect_sapphire_gem"
+    type: GEM
+    material: LAPIS_BLOCK
+    display:
+      name: "Perfect Sapphire Gemstone"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Socket into a Combat slot for +150 ✎ Intelligence."
+    tier: 5
+    economy:
+      sell_price: 2000000.0
+    tags: [GEM, SAPPHIRE, PERFECT]
+
+  # AMBER GEMS (Mining Speed)
+  - id: "aethersky:perfect_amber_gem"
+    type: GEM
+    material: GLOWSTONE
+    display:
+      name: "Perfect Amber Gemstone"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Socket into a Mining slot for +180 ⸕ Mining Speed."
+    tier: 5
+    economy:
+      sell_price: 3000000.0
+    tags: [GEM, AMBER, PERFECT]
+
+  # JADE GEMS (Mining Fortune)
+  - id: "aethersky:flawless_jade_gem"
+    type: GEM
+    material: EMERALD
+    display:
+      name: "Flawless Jade Gemstone"
+      rarity: EPIC
+      description:
+        - "<dark_purple>Socket into a Mining slot for +40 ☘ Mining Fortune."
+    tier: 4
+    economy:
+      sell_price: 300000.0
+    tags: [GEM, JADE, FLAWLESS]
+
+  - id: "aethersky:perfect_jade_gem"
+    type: GEM
+    material: EMERALD_BLOCK
+    display:
+      name: "Perfect Jade Gemstone"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Socket into a Mining slot for +75 ☘ Mining Fortune."
+    tier: 5
+    economy:
+      sell_price: 2000000.0
+    tags: [GEM, JADE, PERFECT]
+
+  # AMETHYST GEMS (Defense)
+  - id: "aethersky:perfect_amethyst_gem"
+    type: GEM
+    material: AMETHYST_BLOCK
+    display:
+      name: "Perfect Amethyst Gemstone"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Socket into a Defensive slot for +60 ❈ Defense."
+    tier: 5
+    economy:
+      sell_price: 1800000.0
+    tags: [GEM, AMETHYST, PERFECT]
+
+  # TOPAZ GEMS (Pristine)
+  - id: "aethersky:perfect_topaz_gem"
+    type: GEM
+    material: HONEYCOMB
+    display:
+      name: "Perfect Topaz Gemstone"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Socket into a Universal slot for +2.0 ✧ Pristine."
+    tier: 5
+    economy:
+      sell_price: 4000000.0
+    tags: [GEM, TOPAZ, PERFECT]
+
+  # OPAL GEMS (True Defense)
+  - id: "aethersky:perfect_opal_gem"
+    type: GEM
+    material: QUARTZ_BLOCK
+    display:
+      name: "Perfect Opal Gemstone"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Socket into a Defensive slot for +15 ❂ True Defense."
+    tier: 5
+    economy:
+      sell_price: 3500000.0
+    tags: [GEM, OPAL, PERFECT]
+

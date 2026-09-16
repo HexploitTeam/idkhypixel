@@ -1,0 +1,723 @@
+items:
+  # 1. NOVICE CLOTH SET (Early Game)
+  - id: "aethersky:novice_helmet"
+    type: HELMET
+    slot: HELMET
+    material: LEATHER_HELMET
+    display:
+      name: "Novice Cloth Cap"
+      rarity: COMMON
+      description:
+        - "<gray>Basic linen headpiece for starting out."
+    tier: 1
+    stats:
+      "aethersky:health": 15.0
+      "aethersky:defense": 5.0
+    set:
+      id: "aethersky:novice_set"
+      piece: HELMET
+      bonus_description: "Increases movement speed by +10%."
+    economy:
+      buy_price: 30.0
+      sell_price: 10.0
+    tags: [ARMOR, STARTER]
+
+  - id: "aethersky:novice_chestplate"
+    type: CHESTPLATE
+    slot: CHESTPLATE
+    material: LEATHER_CHESTPLATE
+    display:
+      name: "Novice Cloth Tunic"
+      rarity: COMMON
+    tier: 1
+    stats:
+      "aethersky:health": 25.0
+      "aethersky:defense": 10.0
+    set:
+      id: "aethersky:novice_set"
+      piece: CHESTPLATE
+      bonus_description: "Increases movement speed by +10%."
+    economy:
+      buy_price: 50.0
+      sell_price: 15.0
+    tags: [ARMOR, STARTER]
+
+  - id: "aethersky:novice_leggings"
+    type: LEGGINGS
+    slot: LEGGINGS
+    material: LEATHER_LEGGINGS
+    display:
+      name: "Novice Cloth Pants"
+      rarity: COMMON
+    tier: 1
+    stats:
+      "aethersky:health": 20.0
+      "aethersky:defense": 8.0
+    set:
+      id: "aethersky:novice_set"
+      piece: LEGGINGS
+      bonus_description: "Increases movement speed by +10%."
+    economy:
+      buy_price: 40.0
+      sell_price: 12.0
+    tags: [ARMOR, STARTER]
+
+  - id: "aethersky:novice_boots"
+    type: BOOTS
+    slot: BOOTS
+    material: LEATHER_BOOTS
+    display:
+      name: "Novice Cloth Shoes"
+      rarity: COMMON
+    tier: 1
+    stats:
+      "aethersky:health": 10.0
+      "aethersky:defense": 5.0
+      "aethersky:speed": 5.0
+    set:
+      id: "aethersky:novice_set"
+      piece: BOOTS
+      bonus_description: "Increases movement speed by +10%."
+    economy:
+      buy_price: 25.0
+      sell_price: 8.0
+    tags: [ARMOR, STARTER]
+
+  # 2. HARDENED IRONBARK SET (Mid Game Tank)
+  - id: "aethersky:ironbark_helmet"
+    type: HELMET
+    slot: HELMET
+    material: IRON_HELMET
+    display:
+      name: "Ironbark Greathelm"
+      rarity: RARE
+    tier: 3
+    stats:
+      "aethersky:health": 60.0
+      "aethersky:defense": 45.0
+    sockets: [DEFENSIVE]
+    set:
+      id: "aethersky:ironbark_set"
+      piece: HELMET
+      bonus_description: "Absorbs 15% of all incoming physical damage."
+    economy:
+      buy_price: 5000.0
+      sell_price: 1500.0
+    requirements:
+      combat_level: 10
+    tags: [ARMOR, TANK]
+
+  - id: "aethersky:ironbark_chestplate"
+    type: CHESTPLATE
+    slot: CHESTPLATE
+    material: IRON_CHESTPLATE
+    display:
+      name: "Ironbark Cuirass"
+      rarity: RARE
+    tier: 3
+    stats:
+      "aethersky:health": 110.0
+      "aethersky:defense": 85.0
+    sockets: [DEFENSIVE]
+    set:
+      id: "aethersky:ironbark_set"
+      piece: CHESTPLATE
+      bonus_description: "Absorbs 15% of all incoming physical damage."
+    economy:
+      buy_price: 10000.0
+      sell_price: 3000.0
+    requirements:
+      combat_level: 10
+    tags: [ARMOR, TANK]
+
+  - id: "aethersky:ironbark_leggings"
+    type: LEGGINGS
+    slot: LEGGINGS
+    material: IRON_LEGGINGS
+    display:
+      name: "Ironbark Greaves"
+      rarity: RARE
+    tier: 3
+    stats:
+      "aethersky:health": 90.0
+      "aethersky:defense": 70.0
+    sockets: [DEFENSIVE]
+    set:
+      id: "aethersky:ironbark_set"
+      piece: LEGGINGS
+      bonus_description: "Absorbs 15% of all incoming physical damage."
+    economy:
+      buy_price: 8000.0
+      sell_price: 2500.0
+    requirements:
+      combat_level: 10
+    tags: [ARMOR, TANK]
+
+  - id: "aethersky:ironbark_boots"
+    type: BOOTS
+    slot: BOOTS
+    material: IRON_BOOTS
+    display:
+      name: "Ironbark Sabatons"
+      rarity: RARE
+    tier: 3
+    stats:
+      "aethersky:health": 50.0
+      "aethersky:defense": 40.0
+    sockets: [DEFENSIVE]
+    set:
+      id: "aethersky:ironbark_set"
+      piece: BOOTS
+      bonus_description: "Absorbs 15% of all incoming physical damage."
+    economy:
+      buy_price: 4500.0
+      sell_price: 1200.0
+    requirements:
+      combat_level: 10
+    tags: [ARMOR, TANK]
+
+  # 3. SHADOW ASSASSIN SET (Late Game DPS)
+  - id: "aethersky:shadow_assassin_helmet"
+    type: HELMET
+    slot: HELMET
+    material: NETHERITE_HELMET
+    display:
+      name: "Shadow Assassin Helmet"
+      rarity: EPIC
+    tier: 4
+    stats:
+      "aethersky:health": 120.0
+      "aethersky:defense": 70.0
+      "aethersky:strength": 40.0
+      "aethersky:crit_damage": 30.0
+      "aethersky:speed": 10.0
+    sockets: [COMBAT, DEFENSIVE]
+    set:
+      id: "aethersky:shadow_assassin_set"
+      piece: HELMET
+      bonus_description: "Collects the shadows of slain foes, granting +2 Strength per kill."
+    dungeon_item: true
+    dungeon_floor: 5
+    economy:
+      buy_price: 150000.0
+      sell_price: 50000.0
+    requirements:
+      combat_level: 20
+      dungeon_level: 14
+    tags: [ARMOR, ASSASSIN, DUNGEON]
+
+  - id: "aethersky:shadow_assassin_chestplate"
+    type: CHESTPLATE
+    slot: CHESTPLATE
+    material: NETHERITE_CHESTPLATE
+    display:
+      name: "Shadow Assassin Chestplate"
+      rarity: EPIC
+    tier: 4
+    stats:
+      "aethersky:health": 200.0
+      "aethersky:defense": 120.0
+      "aethersky:strength": 60.0
+      "aethersky:crit_damage": 45.0
+      "aethersky:speed": 10.0
+    sockets: [COMBAT, DEFENSIVE]
+    set:
+      id: "aethersky:shadow_assassin_set"
+      piece: CHESTPLATE
+      bonus_description: "Collects the shadows of slain foes, granting +2 Strength per kill."
+    dungeon_item: true
+    dungeon_floor: 5
+    economy:
+      buy_price: 350000.0
+      sell_price: 120000.0
+    requirements:
+      combat_level: 20
+      dungeon_level: 14
+    tags: [ARMOR, ASSASSIN, DUNGEON]
+
+  - id: "aethersky:shadow_assassin_leggings"
+    type: LEGGINGS
+    slot: LEGGINGS
+    material: NETHERITE_LEGGINGS
+    display:
+      name: "Shadow Assassin Leggings"
+      rarity: EPIC
+    tier: 4
+    stats:
+      "aethersky:health": 160.0
+      "aethersky:defense": 100.0
+      "aethersky:strength": 50.0
+      "aethersky:crit_damage": 35.0
+      "aethersky:speed": 10.0
+    sockets: [COMBAT, DEFENSIVE]
+    set:
+      id: "aethersky:shadow_assassin_set"
+      piece: LEGGINGS
+      bonus_description: "Collects the shadows of slain foes, granting +2 Strength per kill."
+    dungeon_item: true
+    dungeon_floor: 5
+    economy:
+      buy_price: 200000.0
+      sell_price: 70000.0
+    requirements:
+      combat_level: 20
+      dungeon_level: 14
+    tags: [ARMOR, ASSASSIN, DUNGEON]
+
+  - id: "aethersky:shadow_assassin_boots"
+    type: BOOTS
+    slot: BOOTS
+    material: NETHERITE_BOOTS
+    display:
+      name: "Shadow Assassin Boots"
+      rarity: EPIC
+    tier: 4
+    stats:
+      "aethersky:health": 100.0
+      "aethersky:defense": 65.0
+      "aethersky:strength": 35.0
+      "aethersky:crit_damage": 25.0
+      "aethersky:speed": 15.0
+    sockets: [COMBAT, DEFENSIVE]
+    set:
+      id: "aethersky:shadow_assassin_set"
+      piece: BOOTS
+      bonus_description: "Collects the shadows of slain foes, granting +2 Strength per kill."
+    dungeon_item: true
+    dungeon_floor: 5
+    economy:
+      buy_price: 120000.0
+      sell_price: 40000.0
+    requirements:
+      combat_level: 20
+      dungeon_level: 14
+    tags: [ARMOR, ASSASSIN, DUNGEON]
+
+  # 4. SOVEREIGN DUNGEON ARMOR (Endgame Sovereign Set)
+  - id: "aethersky:sovereign_helmet"
+    type: HELMET
+    slot: HELMET
+    material: NETHERITE_HELMET
+    display:
+      name: "Sovereign Crown of the Wither King"
+      rarity: LEGENDARY
+    tier: 5
+    stats:
+      "aethersky:health": 240.0
+      "aethersky:defense": 160.0
+      "aethersky:strength": 80.0
+      "aethersky:crit_damage": 60.0
+      "aethersky:intelligence": 100.0
+      "aethersky:ferocity": 10.0
+    sockets: [COMBAT, DEFENSIVE, UNIVERSAL]
+    set:
+      id: "aethersky:sovereign_set"
+      piece: HELMET
+      bonus_description: "Spawns 2 protective wither guards and boosts stats by +25% in dungeons."
+    dungeon_item: true
+    dungeon_floor: 7
+    economy:
+      buy_price: 10000000.0
+      sell_price: 3500000.0
+    requirements:
+      combat_level: 28
+      dungeon_level: 24
+    tags: [ARMOR, ENDGAME, DUNGEON]
+
+  - id: "aethersky:sovereign_chestplate"
+    type: CHESTPLATE
+    slot: CHESTPLATE
+    material: NETHERITE_CHESTPLATE
+    display:
+      name: "Sovereign Cuirass of the Wither King"
+      rarity: LEGENDARY
+    tier: 5
+    stats:
+      "aethersky:health": 380.0
+      "aethersky:defense": 240.0
+      "aethersky:strength": 120.0
+      "aethersky:crit_damage": 80.0
+      "aethersky:intelligence": 150.0
+      "aethersky:ferocity": 15.0
+    sockets: [COMBAT, DEFENSIVE, UNIVERSAL]
+    set:
+      id: "aethersky:sovereign_set"
+      piece: CHESTPLATE
+      bonus_description: "Spawns 2 protective wither guards and boosts stats by +25% in dungeons."
+    dungeon_item: true
+    dungeon_floor: 7
+    economy:
+      buy_price: 25000000.0
+      sell_price: 8000000.0
+    requirements:
+      combat_level: 28
+      dungeon_level: 24
+    tags: [ARMOR, ENDGAME, DUNGEON]
+
+  - id: "aethersky:sovereign_leggings"
+    type: LEGGINGS
+    slot: LEGGINGS
+    material: NETHERITE_LEGGINGS
+    display:
+      name: "Sovereign Legguards of the Wither King"
+      rarity: LEGENDARY
+    tier: 5
+    stats:
+      "aethersky:health": 310.0
+      "aethersky:defense": 200.0
+      "aethersky:strength": 95.0
+      "aethersky:crit_damage": 70.0
+      "aethersky:intelligence": 120.0
+      "aethersky:ferocity": 10.0
+    sockets: [COMBAT, DEFENSIVE, UNIVERSAL]
+    set:
+      id: "aethersky:sovereign_set"
+      piece: LEGGINGS
+      bonus_description: "Spawns 2 protective wither guards and boosts stats by +25% in dungeons."
+    dungeon_item: true
+    dungeon_floor: 7
+    economy:
+      buy_price: 15000000.0
+      sell_price: 5000000.0
+    requirements:
+      combat_level: 28
+      dungeon_level: 24
+    tags: [ARMOR, ENDGAME, DUNGEON]
+
+  - id: "aethersky:sovereign_boots"
+    type: BOOTS
+    slot: BOOTS
+    material: NETHERITE_BOOTS
+    display:
+      name: "Sovereign Sabatons of the Wither King"
+      rarity: LEGENDARY
+    tier: 5
+    stats:
+      "aethersky:health": 210.0
+      "aethersky:defense": 140.0
+      "aethersky:strength": 75.0
+      "aethersky:crit_damage": 50.0
+      "aethersky:speed": 20.0
+      "aethersky:intelligence": 90.0
+      "aethersky:ferocity": 10.0
+    sockets: [COMBAT, DEFENSIVE, UNIVERSAL]
+    set:
+      id: "aethersky:sovereign_set"
+      piece: BOOTS
+      bonus_description: "Spawns 2 protective wither guards and boosts stats by +25% in dungeons."
+    dungeon_item: true
+    dungeon_floor: 7
+    economy:
+      buy_price: 12000000.0
+      sell_price: 4000000.0
+    requirements:
+      combat_level: 28
+      dungeon_level: 24
+    tags: [ARMOR, ENDGAME, DUNGEON]
+
+  # 5. ARCHMAGE MAGE SET
+  - id: "aethersky:archmage_helmet"
+    type: HELMET
+    slot: HELMET
+    material: LEATHER_HELMET
+    display:
+      name: "Archmage Crown"
+      rarity: EPIC
+    tier: 4
+    stats:
+      "aethersky:health": 120.0
+      "aethersky:defense": 60.0
+      "aethersky:intelligence": 250.0
+      "aethersky:magic_damage": 30.0
+    sockets: [UTILITY, UNIVERSAL]
+    set:
+      id: "aethersky:archmage_set"
+      piece: HELMET
+      bonus_description: "Reduces mana cost of all abilities by 15% and boosts intelligence by +20%."
+    economy:
+      buy_price: 2500000.0
+      sell_price: 800000.0
+    requirements:
+      combat_level: 20
+    tags: [ARMOR, MAGE]
+
+  - id: "aethersky:archmage_chestplate"
+    type: CHESTPLATE
+    slot: CHESTPLATE
+    material: LEATHER_CHESTPLATE
+    display:
+      name: "Archmage Robes"
+      rarity: EPIC
+    tier: 4
+    stats:
+      "aethersky:health": 180.0
+      "aethersky:defense": 90.0
+      "aethersky:intelligence": 350.0
+      "aethersky:magic_damage": 45.0
+    sockets: [UTILITY, UNIVERSAL]
+    set:
+      id: "aethersky:archmage_set"
+      piece: CHESTPLATE
+      bonus_description: "Reduces mana cost of all abilities by 15% and boosts intelligence by +20%."
+    economy:
+      buy_price: 4000000.0
+      sell_price: 1300000.0
+    requirements:
+      combat_level: 20
+    tags: [ARMOR, MAGE]
+
+  - id: "aethersky:archmage_leggings"
+    type: LEGGINGS
+    slot: LEGGINGS
+    material: LEATHER_LEGGINGS
+    display:
+      name: "Archmage Trousers"
+      rarity: EPIC
+    tier: 4
+    stats:
+      "aethersky:health": 150.0
+      "aethersky:defense": 75.0
+      "aethersky:intelligence": 280.0
+      "aethersky:magic_damage": 35.0
+    sockets: [UTILITY, UNIVERSAL]
+    set:
+      id: "aethersky:archmage_set"
+      piece: LEGGINGS
+      bonus_description: "Reduces mana cost of all abilities by 15% and boosts intelligence by +20%."
+    economy:
+      buy_price: 3200000.0
+      sell_price: 1000000.0
+    requirements:
+      combat_level: 20
+    tags: [ARMOR, MAGE]
+
+  - id: "aethersky:archmage_boots"
+    type: BOOTS
+    slot: BOOTS
+    material: LEATHER_BOOTS
+    display:
+      name: "Archmage Slippers"
+      rarity: EPIC
+    tier: 4
+    stats:
+      "aethersky:health": 100.0
+      "aethersky:defense": 50.0
+      "aethersky:intelligence": 200.0
+      "aethersky:speed": 15.0
+    sockets: [UTILITY, UNIVERSAL]
+    set:
+      id: "aethersky:archmage_set"
+      piece: BOOTS
+      bonus_description: "Reduces mana cost of all abilities by 15% and boosts intelligence by +20%."
+    economy:
+      buy_price: 2000000.0
+      sell_price: 650000.0
+    requirements:
+      combat_level: 20
+    tags: [ARMOR, MAGE]
+
+  # 6. PROSPECTOR MINING SET
+  - id: "aethersky:prospector_helmet"
+    type: HELMET
+    slot: HELMET
+    material: CHAINMAIL_HELMET
+    display:
+      name: "Prospector's Hardhat"
+      rarity: RARE
+    tier: 3
+    stats:
+      "aethersky:health": 50.0
+      "aethersky:defense": 30.0
+      "aethersky:mining_speed": 150.0
+      "aethersky:mining_fortune": 40.0
+    sockets: [UTILITY]
+    set:
+      id: "aethersky:prospector_set"
+      piece: HELMET
+      bonus_description: "Grants +100 Mining Fortune and double ore yield chance."
+    economy:
+      buy_price: 500000.0
+      sell_price: 150000.0
+    requirements:
+      mining_level: 12
+    tags: [ARMOR, MINING]
+
+  - id: "aethersky:prospector_chestplate"
+    type: CHESTPLATE
+    slot: CHESTPLATE
+    material: CHAINMAIL_CHESTPLATE
+    display:
+      name: "Prospector's Reinforced Vest"
+      rarity: RARE
+    tier: 3
+    stats:
+      "aethersky:health": 80.0
+      "aethersky:defense": 50.0
+      "aethersky:mining_speed": 200.0
+      "aethersky:mining_fortune": 50.0
+    sockets: [UTILITY]
+    set:
+      id: "aethersky:prospector_set"
+      piece: CHESTPLATE
+      bonus_description: "Grants +100 Mining Fortune and double ore yield chance."
+    economy:
+      buy_price: 800000.0
+      sell_price: 250000.0
+    requirements:
+      mining_level: 12
+    tags: [ARMOR, MINING]
+
+  - id: "aethersky:prospector_leggings"
+    type: LEGGINGS
+    slot: LEGGINGS
+    material: CHAINMAIL_LEGGINGS
+    display:
+      name: "Prospector's Work Pants"
+      rarity: RARE
+    tier: 3
+    stats:
+      "aethersky:health": 65.0
+      "aethersky:defense": 40.0
+      "aethersky:mining_speed": 175.0
+      "aethersky:mining_fortune": 45.0
+    sockets: [UTILITY]
+    set:
+      id: "aethersky:prospector_set"
+      piece: LEGGINGS
+      bonus_description: "Grants +100 Mining Fortune and double ore yield chance."
+    economy:
+      buy_price: 650000.0
+      sell_price: 200000.0
+    requirements:
+      mining_level: 12
+    tags: [ARMOR, MINING]
+
+  - id: "aethersky:prospector_boots"
+    type: BOOTS
+    slot: BOOTS
+    material: CHAINMAIL_BOOTS
+    display:
+      name: "Prospector's Steel-Toe Boots"
+      rarity: RARE
+    tier: 3
+    stats:
+      "aethersky:health": 45.0
+      "aethersky:defense": 25.0
+      "aethersky:mining_speed": 125.0
+      "aethersky:mining_fortune": 35.0
+    sockets: [UTILITY]
+    set:
+      id: "aethersky:prospector_set"
+      piece: BOOTS
+      bonus_description: "Grants +100 Mining Fortune and double ore yield chance."
+    economy:
+      buy_price: 450000.0
+      sell_price: 130000.0
+    requirements:
+      mining_level: 12
+    tags: [ARMOR, MINING]
+
+  # 7. RANGER ARCHER SET
+  - id: "aethersky:ranger_helmet"
+    type: HELMET
+    slot: HELMET
+    material: LEATHER_HELMET
+    display:
+      name: "Ranger's Cowl"
+      rarity: EPIC
+    tier: 4
+    stats:
+      "aethersky:health": 140.0
+      "aethersky:defense": 70.0
+      "aethersky:crit_chance": 12.0
+      "aethersky:crit_damage": 50.0
+      "aethersky:attack_speed": 10.0
+    sockets: [COMBAT]
+    set:
+      id: "aethersky:ranger_set"
+      piece: HELMET
+      bonus_description: "Bow attacks deal +35% damage and arrow shots hit 2 extra targets."
+    economy:
+      buy_price: 3000000.0
+      sell_price: 900000.0
+    requirements:
+      combat_level: 22
+    tags: [ARMOR, RANGED]
+
+  - id: "aethersky:ranger_chestplate"
+    type: CHESTPLATE
+    slot: CHESTPLATE
+    material: LEATHER_CHESTPLATE
+    display:
+      name: "Ranger's Cuirass"
+      rarity: EPIC
+    tier: 4
+    stats:
+      "aethersky:health": 220.0
+      "aethersky:defense": 110.0
+      "aethersky:crit_chance": 15.0
+      "aethersky:crit_damage": 75.0
+      "aethersky:attack_speed": 15.0
+    sockets: [COMBAT]
+    set:
+      id: "aethersky:ranger_set"
+      piece: CHESTPLATE
+      bonus_description: "Bow attacks deal +35% damage and arrow shots hit 2 extra targets."
+    economy:
+      buy_price: 5000000.0
+      sell_price: 1500000.0
+    requirements:
+      combat_level: 22
+    tags: [ARMOR, RANGED]
+
+  - id: "aethersky:ranger_leggings"
+    type: LEGGINGS
+    slot: LEGGINGS
+    material: LEATHER_LEGGINGS
+    display:
+      name: "Ranger's Greaves"
+      rarity: EPIC
+    tier: 4
+    stats:
+      "aethersky:health": 180.0
+      "aethersky:defense": 90.0
+      "aethersky:crit_chance": 12.0
+      "aethersky:crit_damage": 60.0
+      "aethersky:speed": 15.0
+    sockets: [COMBAT]
+    set:
+      id: "aethersky:ranger_set"
+      piece: LEGGINGS
+      bonus_description: "Bow attacks deal +35% damage and arrow shots hit 2 extra targets."
+    economy:
+      buy_price: 4000000.0
+      sell_price: 1200000.0
+    requirements:
+      combat_level: 22
+    tags: [ARMOR, RANGED]
+
+  - id: "aethersky:ranger_boots"
+    type: BOOTS
+    slot: BOOTS
+    material: LEATHER_BOOTS
+    display:
+      name: "Ranger's Striders"
+      rarity: EPIC
+    tier: 4
+    stats:
+      "aethersky:health": 120.0
+      "aethersky:defense": 60.0
+      "aethersky:crit_chance": 10.0
+      "aethersky:crit_damage": 40.0
+      "aethersky:speed": 25.0
+    sockets: [COMBAT]
+    set:
+      id: "aethersky:ranger_set"
+      piece: BOOTS
+      bonus_description: "Bow attacks deal +35% damage and arrow shots hit 2 extra targets."
+    economy:
+      buy_price: 2500000.0
+      sell_price: 750000.0
+    requirements:
+      combat_level: 22
+    tags: [ARMOR, RANGED]

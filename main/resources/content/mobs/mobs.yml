@@ -1,0 +1,34 @@
+mobs:
+  - id: "aethersky:shadow_wolf"
+    base_entity: WOLF
+    name: "<gradient:#2C3E50:#4CA1AF>Shadow Wolf</gradient>"
+    level: 15
+    stats:
+      health: 450
+      damage: 40
+      defense: 25
+      speed: 1.2
+    drops:
+      - item: "aethersky:shadow_fang"
+        chance: 0.65
+        min_amount: 1
+        max_amount: 2
+      - item: "aethersky:void_fragment"
+        chance: 0.12
+        min_amount: 1
+        max_amount: 1
+    xp_reward: 75
+    coin_reward: 35
+
+  - id: "aethersky:training_dummy"
+    base_entity: ZOMBIE
+    name: "<yellow>Combat Training Dummy</yellow>"
+    level: 1
+    stats:
+      health: 1000000
+      damage: 0
+      defense: 0
+      speed: 0.0
+    drops: []
+    xp_reward: 5
+    coin_reward: 2

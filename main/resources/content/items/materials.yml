@@ -1,0 +1,188 @@
+items:
+  # RAW & REFINED MATERIALS
+  - id: "aethersky:mithril_ore"
+    type: ORE
+    material: PRISMARINE_CRYSTALS
+    display:
+      name: "Mithril Ore"
+      rarity: COMMON
+    tier: 1
+    max_stack_size: 64
+    economy:
+      sell_price: 10.0
+      npc_value: 10.0
+    tags: [MATERIAL, ORE, MITHRIL]
+
+  - id: "aethersky:refined_mithril"
+    type: REFINED_MATERIAL
+    material: PRISMARINE_CRYSTALS
+    display:
+      name: "Refined Mithril Ingot"
+      rarity: RARE
+      description:
+        - "<gray>160x Mithril compacted and refined under extreme heat."
+    tier: 3
+    max_stack_size: 64
+    economy:
+      sell_price: 1600.0
+      npc_value: 1600.0
+    tags: [MATERIAL, REFINED, MITHRIL]
+
+  - id: "aethersky:titanium_ore"
+    type: ORE
+    material: QUARTZ
+    display:
+      name: "Titanium Ore"
+      rarity: UNCOMMON
+    tier: 2
+    max_stack_size: 64
+    economy:
+      sell_price: 50.0
+      npc_value: 50.0
+    tags: [MATERIAL, ORE, TITANIUM]
+
+  - id: "aethersky:refined_titanium"
+    type: REFINED_MATERIAL
+    material: QUARTZ
+    display:
+      name: "Refined Titanium Block"
+      rarity: EPIC
+    tier: 4
+    max_stack_size: 64
+    economy:
+      sell_price: 8000.0
+      npc_value: 8000.0
+    tags: [MATERIAL, REFINED, TITANIUM]
+
+  - id: "aethersky:enchanted_diamond_block"
+    type: REFINED_MATERIAL
+    material: DIAMOND_BLOCK
+    display:
+      name: "Enchanted Diamond Block"
+      rarity: EPIC
+    tier: 4
+    max_stack_size: 64
+    economy:
+      sell_price: 25600.0
+      npc_value: 25600.0
+    tags: [MATERIAL, REFINED]
+
+  - id: "aethersky:sovereign_core"
+    type: BOSS_DROP
+    material: NETHERITE_INGOT
+    display:
+      name: "Sovereign Necron's Core"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Extremely rare boss drop from the Floor 7 Wither King."
+        - "<gray>Used to forge the Celestial Voidcleaver."
+    tier: 5
+    max_stack_size: 16
+    dungeon_item: true
+    dungeon_floor: 7
+    economy:
+      buy_price: 15000000.0
+      sell_price: 5000000.0
+      auction_eligible: true
+    tags: [MATERIAL, BOSS_DROP, DUNGEON]
+
+  # MOB DROPS
+  - id: "aethersky:zombie_heart"
+    type: MOB_DROP
+    material: ROTTEN_FLESH
+    display:
+      name: "Enchanted Zombie Heart"
+      rarity: RARE
+      description:
+        - "<gray>Pulsing undead organ used in high-tier crafting."
+    tier: 3
+    max_stack_size: 64
+    economy:
+      sell_price: 3200.0
+    tags: [MATERIAL, MOB_DROP]
+
+  - id: "aethersky:tarantula_silk"
+    type: MOB_DROP
+    material: STRING
+    display:
+      name: "Tarantula Silk"
+      rarity: RARE
+      description:
+        - "<gray>Woven from radioactive spider threads."
+    tier: 3
+    max_stack_size: 64
+    economy:
+      sell_price: 2500.0
+    tags: [MATERIAL, MOB_DROP]
+
+  - id: "aethersky:blaze_ashes"
+    type: MOB_DROP
+    material: BLAZE_POWDER
+    display:
+      name: "Blaze Ashes of Nova"
+      rarity: UNCOMMON
+    tier: 2
+    max_stack_size: 64
+    economy:
+      sell_price: 400.0
+    tags: [MATERIAL, MOB_DROP]
+
+  # ENCHANTED REFINED MATERIALS
+  - id: "aethersky:enchanted_oak_wood"
+    type: REFINED_MATERIAL
+    material: OAK_LOG
+    display:
+      name: "Enchanted Oak Wood"
+      rarity: UNCOMMON
+      description:
+        - "<gray>160x Oak Logs compressed magically."
+    tier: 2
+    max_stack_size: 64
+    economy:
+      sell_price: 320.0
+    tags: [MATERIAL, REFINED, FORAGING]
+
+  - id: "aethersky:enchanted_iron_ingot"
+    type: REFINED_MATERIAL
+    material: IRON_INGOT
+    display:
+      name: "Enchanted Iron Ingot"
+      rarity: UNCOMMON
+    tier: 2
+    max_stack_size: 64
+    economy:
+      sell_price: 800.0
+    tags: [MATERIAL, REFINED, MINING]
+
+  # PET UPGRADE ITEMS
+  - id: "aethersky:super_pet_candy"
+    type: PET_ITEM
+    material: SUGAR
+    display:
+      name: "Super Pet Candy"
+      rarity: EPIC
+      description:
+        - "<dark_purple>Feeds your active pet, granting +500,000 Pet EXP."
+    tier: 4
+    max_stack_size: 64
+    economy:
+      buy_price: 500000.0
+      sell_price: 150000.0
+    tags: [MATERIAL, PET_ITEM]
+
+  # DUNGEON ESSENCES
+  - id: "aethersky:wither_essence"
+    type: REFINED_MATERIAL
+    material: WITHER_ROSE
+    display:
+      name: "Wither Essence"
+      rarity: RARE
+      description:
+        - "<gray>Used to upgrade Catacombs dungeon gear."
+    tier: 3
+    max_stack_size: 999
+    dungeon_item: true
+    economy:
+      sell_price: 500.0
+    tags: [MATERIAL, ESSENCE, DUNGEON]
+

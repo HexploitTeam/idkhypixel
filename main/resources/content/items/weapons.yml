@@ -1,0 +1,578 @@
+items:
+  # EARLY GAME WEAPONS
+  - id: "aethersky:starter_sword"
+    type: SWORD
+    material: WOODEN_SWORD
+    display:
+      name: "Novice Training Blade"
+      rarity: COMMON
+      description:
+        - "<gray>A reliable practice blade crafted from"
+        - "<gray>lightweight seasoned oak."
+    tier: 1
+    stats:
+      "aethersky:damage": 20.0
+      "aethersky:strength": 5.0
+    economy:
+      buy_price: 50.0
+      sell_price: 15.0
+      npc_value: 15.0
+      auction_eligible: false
+      tradeable: true
+    requirements:
+      level: 1
+    tags:
+      - WEAPON
+      - STARTER
+
+  - id: "aethersky:iron_broadsword"
+    type: SWORD
+    material: IRON_SWORD
+    display:
+      name: "Vanguard Broadsword"
+      rarity: UNCOMMON
+      description:
+        - "<gray>Tempered high-carbon steel forged for frontline guards."
+    tier: 2
+    stats:
+      "aethersky:damage": 45.0
+      "aethersky:strength": 15.0
+      "aethersky:crit_chance": 5.0
+    economy:
+      buy_price: 250.0
+      sell_price: 80.0
+    requirements:
+      combat_level: 3
+    tags:
+      - WEAPON
+      - MELEE
+
+  - id: "aethersky:hunter_recurve_bow"
+    type: BOW
+    material: BOW
+    display:
+      name: "Hunter's Recurve Bow"
+      rarity: UNCOMMON
+      description:
+        - "<gray>Supple yew wood with high tension."
+    tier: 2
+    stats:
+      "aethersky:damage": 40.0
+      "aethersky:crit_damage": 20.0
+    economy:
+      buy_price: 300.0
+      sell_price: 100.0
+    requirements:
+      combat_level: 4
+    tags:
+      - WEAPON
+      - RANGED
+
+  # MID GAME WEAPONS
+  - id: "aethersky:silver_rapier"
+    type: SWORD
+    material: IRON_SWORD
+    display:
+      name: "Silvered Rapier"
+      rarity: RARE
+      description:
+        - "<gray>Designed for precise, high-frequency strikes."
+    tier: 3
+    stats:
+      "aethersky:damage": 75.0
+      "aethersky:strength": 25.0
+      "aethersky:attack_speed": 15.0
+      "aethersky:crit_chance": 10.0
+    sockets:
+      - COMBAT
+    economy:
+      buy_price: 2500.0
+      sell_price: 800.0
+    requirements:
+      combat_level: 8
+    tags:
+      - WEAPON
+      - MELEE
+
+  - id: "aethersky:apprentice_wand"
+    type: WAND
+    material: BLAZE_ROD
+    display:
+      name: "Apprentice Ember Wand"
+      rarity: RARE
+      description:
+        - "<gray>Focuses mana into concentrated fire bolts."
+    tier: 3
+    stats:
+      "aethersky:damage": 60.0
+      "aethersky:intelligence": 120.0
+      "aethersky:magic_damage": 35.0
+    abilities:
+      right_click:
+        id: "aethersky:fireball"
+        mana_cost: 30.0
+        cooldown_seconds: 1.0
+    sockets:
+      - UTILITY
+    economy:
+      buy_price: 3500.0
+      sell_price: 1200.0
+    requirements:
+      combat_level: 10
+    tags:
+      - WEAPON
+      - MAGE
+
+  - id: "aethersky:obsidian_cleaver"
+    type: SWORD
+    material: DIAMOND_SWORD
+    display:
+      name: "Obsidian Cleaver"
+      rarity: RARE
+      description:
+        - "<gray>Heavy obsidian edge that cleaves nearby foes."
+    tier: 3
+    stats:
+      "aethersky:damage": 110.0
+      "aethersky:strength": 45.0
+      "aethersky:crit_damage": 25.0
+    abilities:
+      right_click:
+        id: "aethersky:whirlwind"
+        mana_cost: 40.0
+        cooldown_seconds: 4.0
+    sockets:
+      - COMBAT
+      - DEFENSIVE
+    economy:
+      buy_price: 10000.0
+      sell_price: 3000.0
+    requirements:
+      combat_level: 12
+    tags:
+      - WEAPON
+      - MELEE
+
+  # LATE GAME WEAPONS
+  - id: "aethersky:void_blade"
+    type: SWORD
+    material: DIAMOND_SWORD
+    display:
+      name: "Voidwalker Blade"
+      rarity: EPIC
+      description:
+        - "<gray>Forged from crystallized spatial rift energy."
+        - "<dark_purple>Channels spatial blinks on right click."
+    tier: 4
+    stats:
+      "aethersky:damage": 160.0
+      "aethersky:strength": 75.0
+      "aethersky:crit_chance": 15.0
+      "aethersky:crit_damage": 50.0
+      "aethersky:intelligence": 80.0
+    abilities:
+      right_click:
+        id: "aethersky:void_dash"
+        mana_cost: 35.0
+        cooldown_seconds: 3.0
+    sockets:
+      - COMBAT
+      - UNIVERSAL
+    economy:
+      buy_price: 75000.0
+      sell_price: 25000.0
+    requirements:
+      combat_level: 18
+    tags:
+      - WEAPON
+      - VOID
+      - MELEE
+
+  - id: "aethersky:dragonfire_longbow"
+    type: BOW
+    material: BOW
+    display:
+      name: "Dragonfire Longbow"
+      rarity: EPIC
+      description:
+        - "<gray>Carved from ancient dragon bone and stringed with flame silk."
+    tier: 4
+    stats:
+      "aethersky:damage": 150.0
+      "aethersky:strength": 60.0
+      "aethersky:crit_damage": 70.0
+      "aethersky:ferocity": 10.0
+    sockets:
+      - COMBAT
+      - COMBAT
+    economy:
+      buy_price: 120000.0
+      sell_price: 40000.0
+    requirements:
+      combat_level: 20
+    tags:
+      - WEAPON
+      - RANGED
+      - DRAGON
+
+  - id: "aethersky:thunder_claymore"
+    type: SWORD
+    material: NETHERITE_SWORD
+    display:
+      name: "Thunder Claymore"
+      rarity: LEGENDARY
+      description:
+        - "<gray>Imbued with tempestuous storm core energy."
+        - "<yellow>Calls down violent thunderbolts on right click."
+    tier: 5
+    stats:
+      "aethersky:damage": 220.0
+      "aethersky:strength": 110.0
+      "aethersky:crit_chance": 25.0
+      "aethersky:crit_damage": 85.0
+      "aethersky:ferocity": 15.0
+    abilities:
+      right_click:
+        id: "aethersky:lightning_strike"
+        mana_cost: 60.0
+        cooldown_seconds: 5.0
+    sockets:
+      - COMBAT
+      - COMBAT
+      - UNIVERSAL
+    dungeon_item: true
+    dungeon_floor: 5
+    economy:
+      buy_price: 500000.0
+      sell_price: 150000.0
+    requirements:
+      combat_level: 24
+      dungeon_level: 12
+    tags:
+      - WEAPON
+      - MELEE
+      - DUNGEON
+
+  - id: "aethersky:celestial_voidcleaver"
+    type: SWORD
+    material: NETHERITE_SWORD
+    display:
+      name: "Celestial Voidcleaver"
+      rarity: MYTHIC
+      description:
+        - "<light_purple>The supreme artifact of space and dark matter."
+        - "<gray>Channels Void Warp and Cosmic Shield simultaneously."
+    tier: 6
+    stats:
+      "aethersky:damage": 290.0
+      "aethersky:strength": 160.0
+      "aethersky:crit_chance": 30.0
+      "aethersky:crit_damage": 120.0
+      "aethersky:intelligence": 350.0
+      "aethersky:ferocity": 30.0
+    abilities:
+      right_click:
+        id: "aethersky:void_dash"
+        mana_cost: 50.0
+        cooldown_seconds: 0.2
+    sockets:
+      - COMBAT
+      - COMBAT
+      - UTILITY
+      - UNIVERSAL
+      - UNIVERSAL
+    dungeon_item: true
+    dungeon_floor: 7
+    economy:
+      buy_price: 25000000.0
+      sell_price: 8000000.0
+      auction_eligible: true
+    requirements:
+      combat_level: 30
+      dungeon_level: 24
+    tags:
+      - WEAPON
+      - ENDGAME
+      - DUNGEON
+      - MYTHIC
+
+  - id: "aethersky:solarian_staff"
+    type: STAFF
+    material: BLAZE_ROD
+    display:
+      name: "Solarian Staff of Nova"
+      rarity: MYTHIC
+      description:
+        - "<gold>Harnesses the unbridled fury of a dying sun."
+    tier: 6
+    stats:
+      "aethersky:damage": 180.0
+      "aethersky:intelligence": 600.0
+      "aethersky:magic_damage": 180.0
+      "aethersky:ability_damage": 30.0
+    abilities:
+      right_click:
+        id: "aethersky:meteor_storm"
+        mana_cost: 150.0
+        cooldown_seconds: 2.0
+    sockets:
+      - UTILITY
+      - UTILITY
+      - UNIVERSAL
+      - UNIVERSAL
+    dungeon_item: true
+    dungeon_floor: 7
+    economy:
+      buy_price: 20000000.0
+      sell_price: 7000000.0
+    requirements:
+      combat_level: 30
+      dungeon_level: 24
+    tags:
+      - WEAPON
+      - MAGE
+      - ENDGAME
+      - DUNGEON
+
+  # EXPANDED WEAPONS
+  - id: "aethersky:juju_shortbow"
+    type: BOW
+    material: BOW
+    display:
+      name: "Juju Shortbow"
+      rarity: EPIC
+      description:
+        - "<dark_purple>Instantly shoots arrows without charging!"
+    tier: 4
+    stats:
+      "aethersky:damage": 310.0
+      "aethersky:strength": 40.0
+      "aethersky:crit_chance": 10.0
+      "aethersky:crit_damage": 110.0
+    sockets:
+      - COMBAT
+      - COMBAT
+    dungeon_item: true
+    dungeon_floor: 5
+    economy:
+      buy_price: 25000000.0
+      sell_price: 8000000.0
+    requirements:
+      combat_level: 19
+      dungeon_level: 15
+    tags:
+      - WEAPON
+      - RANGED
+      - DUNGEON
+      - SHORTBOW
+
+  - id: "aethersky:terminator_shortbow"
+    type: BOW
+    material: BOW
+    display:
+      name: "Terminator Shortbow"
+      rarity: MYTHIC
+      description:
+        - "<gold>Shoots 3 arrows at once in a rapid spread."
+    tier: 6
+    stats:
+      "aethersky:damage": 450.0
+      "aethersky:strength": 120.0
+      "aethersky:crit_damage": 250.0
+      "aethersky:attack_speed": 40.0
+    sockets:
+      - COMBAT
+      - COMBAT
+      - UNIVERSAL
+    dungeon_item: true
+    dungeon_floor: 7
+    economy:
+      buy_price: 800000000.0
+      sell_price: 300000000.0
+    requirements:
+      combat_level: 30
+      dungeon_level: 28
+    tags:
+      - WEAPON
+      - RANGED
+      - ENDGAME
+      - DUNGEON
+      - SHORTBOW
+
+  - id: "aethersky:rogue_dagger"
+    type: DAGGER
+    material: IRON_SWORD
+    display:
+      name: "Rogue's Stiletto"
+      rarity: UNCOMMON
+      description:
+        - "<gray>Lightweight assassin dagger offering high attack speed."
+    tier: 2
+    stats:
+      "aethersky:damage": 35.0
+      "aethersky:attack_speed": 25.0
+      "aethersky:crit_chance": 8.0
+    economy:
+      buy_price: 400.0
+      sell_price: 120.0
+    requirements:
+      combat_level: 3
+    tags:
+      - WEAPON
+      - MELEE
+      - DAGGER
+
+  - id: "aethersky:shadow_dagger"
+    type: DAGGER
+    material: DIAMOND_SWORD
+    display:
+      name: "Shadowstalker Fang"
+      rarity: EPIC
+      description:
+        - "<dark_purple>Stealthy strike dagger."
+    tier: 4
+    stats:
+      "aethersky:damage": 175.0
+      "aethersky:strength": 65.0
+      "aethersky:attack_speed": 40.0
+      "aethersky:crit_damage": 60.0
+    sockets:
+      - COMBAT
+    economy:
+      buy_price: 150000.0
+      sell_price: 50000.0
+    requirements:
+      combat_level: 18
+    tags:
+      - WEAPON
+      - MELEE
+      - DAGGER
+
+  - id: "aethersky:reaper_scythe"
+    type: SCYTHE
+    material: DIAMOND_HOE
+    display:
+      name: "Reaper Scythe of Souls"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Harvests the souls of defeated mobs on right click."
+    tier: 5
+    stats:
+      "aethersky:damage": 240.0
+      "aethersky:strength": 100.0
+      "aethersky:defense": 50.0
+    sockets:
+      - COMBAT
+      - DEFENSIVE
+    economy:
+      buy_price: 15000000.0
+      sell_price: 5000000.0
+    requirements:
+      combat_level: 22
+    tags:
+      - WEAPON
+      - MELEE
+      - SCYTHE
+      - SLAYER
+
+  - id: "aethersky:voidwalker_katana"
+    type: KATANA
+    material: NETHERITE_SWORD
+    display:
+      name: "Voidwalker Katana"
+      rarity: EPIC
+      description:
+        - "<dark_purple>Deals +200% damage to Void & Endermen mobs."
+    tier: 4
+    stats:
+      "aethersky:damage": 190.0
+      "aethersky:strength": 80.0
+      "aethersky:crit_damage": 75.0
+    sockets:
+      - COMBAT
+      - COMBAT
+    economy:
+      buy_price: 1200000.0
+      sell_price: 400000.0
+    requirements:
+      combat_level: 20
+    tags:
+      - WEAPON
+      - MELEE
+      - KATANA
+      - VOID
+
+  - id: "aethersky:spirit_scepter"
+    type: WAND
+    material: ALLIUM
+    display:
+      name: "Spirit Scepter"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Fires homing spirit bats that explode on impact!"
+    tier: 5
+    stats:
+      "aethersky:damage": 180.0
+      "aethersky:intelligence": 300.0
+      "aethersky:magic_damage": 120.0
+    abilities:
+      right_click:
+        id: "aethersky:fireball"
+        mana_cost: 250.0
+        cooldown_seconds: 0.1
+    sockets:
+      - UTILITY
+      - UNIVERSAL
+    dungeon_item: true
+    dungeon_floor: 4
+    economy:
+      buy_price: 18000000.0
+      sell_price: 6000000.0
+    requirements:
+      combat_level: 22
+      dungeon_level: 16
+    tags:
+      - WEAPON
+      - MAGE
+      - DUNGEON
+
+  - id: "aethersky:hyperion_blade"
+    type: SWORD
+    material: IRON_SWORD
+    display:
+      name: "Hyperion, Blade of Withered Stars"
+      rarity: MYTHIC
+      description:
+        - "<light_purple>Deals immense AOE magic damage and grants an absorption shield."
+    tier: 6
+    stats:
+      "aethersky:damage": 260.0
+      "aethersky:strength": 150.0
+      "aethersky:crit_damage": 110.0
+      "aethersky:intelligence": 450.0
+      "aethersky:ferocity": 30.0
+    abilities:
+      right_click:
+        id: "aethersky:void_dash"
+        mana_cost: 300.0
+        cooldown_seconds: 0.1
+    sockets:
+      - COMBAT
+      - UTILITY
+      - UNIVERSAL
+      - UNIVERSAL
+    dungeon_item: true
+    dungeon_floor: 7
+    economy:
+      buy_price: 1500000000.0
+      sell_price: 500000000.0
+    requirements:
+      combat_level: 30
+      dungeon_level: 28
+    tags:
+      - WEAPON
+      - MAGE
+      - MELEE
+      - ENDGAME
+      - DUNGEON
+      - MYTHIC

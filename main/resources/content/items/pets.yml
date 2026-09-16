@@ -1,0 +1,72 @@
+items:
+  - id: "aethersky:pet_ender_dragon"
+    type: PET
+    material: DRAGON_EGG
+    display:
+      name: "Ender Dragon Pet"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Superior Dragon Perks:</gold>"
+        - "<gray>+20% damage to dragons, +10% all stats."
+    tier: 5
+    stats:
+      "aethersky:crit_chance": 10.0
+      "aethersky:crit_damage": 50.0
+      "aethersky:strength": 30.0
+    economy:
+      buy_price: 100000000.0
+      sell_price: 30000000.0
+    tags: [PET, COMBAT, ENDGAME]
+
+  - id: "aethersky:pet_wither_skeleton"
+    type: PET
+    material: WITHER_SKELETON_SKULL
+    display:
+      name: "Wither Skeleton Pet"
+      rarity: EPIC
+      description:
+        - "<dark_purple>Wither Shield Perks:</dark_purple>"
+        - "<gray>Reduces damage taken from boss monsters by 25%."
+    tier: 4
+    stats:
+      "aethersky:crit_damage": 25.0
+      "aethersky:strength": 25.0
+      "aethersky:defense": 25.0
+    economy:
+      buy_price: 15000000.0
+      sell_price: 5000000.0
+    tags: [PET, COMBAT, DUNGEON]
+
+  - id: "aethersky:pet_golden_retriever"
+    type: PET
+    material: BONE
+    display:
+      name: "Golden Companion Pet"
+      rarity: RARE
+      description:
+        - "<gray>Loyal dog companion that auto-picks up coins and drops."
+    tier: 3
+    stats:
+      "aethersky:magic_find": 15.0
+      "aethersky:speed": 20.0
+    economy:
+      buy_price: 2500000.0
+      sell_price: 800000.0
+    tags: [PET, UTILITY]
+
+  - id: "aethersky:pet_silverfish"
+    type: PET
+    material: STONE
+    display:
+      name: "Silverfish Mining Pet"
+      rarity: UNCOMMON
+      description:
+        - "<gray>Grants Haste II permanent effect while held."
+    tier: 2
+    stats:
+      "aethersky:mining_speed": 100.0
+      "aethersky:defense": 15.0
+    economy:
+      buy_price: 500000.0
+      sell_price: 150000.0
+    tags: [PET, MINING]

@@ -1,0 +1,253 @@
+items:
+  # MINING PICKAXES & DRILLS
+  - id: "aethersky:rookie_pickaxe"
+    type: PICKAXE
+    material: STONE_PICKAXE
+    display:
+      name: "Rookie Pickaxe"
+      rarity: COMMON
+      description:
+        - "<gray>A standard pickaxe for novice miners."
+    tier: 1
+    stats:
+      "aethersky:mining_speed": 70.0
+      "aethersky:breaking_power": 1.0
+    economy:
+      buy_price: 20.0
+      sell_price: 5.0
+    tags: [TOOL, MINING]
+
+  - id: "aethersky:mithril_pickaxe"
+    type: PICKAXE
+    material: DIAMOND_PICKAXE
+    display:
+      name: "Refined Mithril Pickaxe"
+      rarity: RARE
+      description:
+        - "<gray>Forged with blue mithril alloy for deep mine veins."
+    tier: 3
+    stats:
+      "aethersky:mining_speed": 280.0
+      "aethersky:mining_fortune": 45.0
+      "aethersky:breaking_power": 5.0
+    sockets: [MINING]
+    economy:
+      buy_price: 45000.0
+      sell_price: 15000.0
+    requirements:
+      mining_level: 12
+    tags: [TOOL, MINING, MITHRIL]
+
+  - id: "aethersky:titanium_drill_t1"
+    type: DRILL
+    material: PRISMARINE_SHARD
+    display:
+      name: "Titanium Drill DR-X355"
+      rarity: EPIC
+      description:
+        - "<gray>Motorized rotary drill head capable of shattering titanium."
+    tier: 4
+    stats:
+      "aethersky:mining_speed": 550.0
+      "aethersky:mining_fortune": 90.0
+      "aethersky:breaking_power": 7.0
+    sockets: [MINING, MINING]
+    economy:
+      buy_price: 500000.0
+      sell_price: 180000.0
+    requirements:
+      mining_level: 22
+    tags: [TOOL, MINING, DRILL]
+
+  - id: "aethersky:starlight_drill"
+    type: DRILL
+    material: PRISMARINE_SHARD
+    display:
+      name: "Divan's Starlight Drill 655"
+      rarity: MYTHIC
+      description:
+        - "<light_purple>The pinnacle of dwarven excavation technology."
+    tier: 6
+    stats:
+      "aethersky:mining_speed": 1600.0
+      "aethersky:mining_fortune": 250.0
+      "aethersky:breaking_power": 10.0
+    sockets: [MINING, MINING, UNIVERSAL, UNIVERSAL]
+    economy:
+      buy_price: 50000000.0
+      sell_price: 15000000.0
+    requirements:
+      mining_level: 30
+    tags: [TOOL, MINING, DRILL, ENDGAME]
+
+  # FORAGING AXES
+  - id: "aethersky:treecapitator_axe"
+    type: AXE
+    material: GOLDEN_AXE
+    display:
+      name: "Treecapitator Great-Axe"
+      rarity: EPIC
+      description:
+        - "<gray>A heavy enchanted lumber axe that fells entire trees instantly."
+    tier: 4
+    stats:
+      "aethersky:foraging_fortune": 60.0
+      "aethersky:damage": 65.0
+      "aethersky:strength": 30.0
+    economy:
+      buy_price: 250000.0
+      sell_price: 80000.0
+    requirements:
+      foraging_level: 15
+    tags: [TOOL, FORAGING]
+
+  # FARMING HOES
+  - id: "aethersky:harvester_hoe"
+    type: HOE
+    material: IRON_HOE
+    display:
+      name: "Harvester's Pruning Hoe"
+      rarity: UNCOMMON
+      description:
+        - "<gray>Specialized for clean crop reaping."
+    tier: 2
+    stats:
+      "aethersky:farming_fortune": 30.0
+    economy:
+      buy_price: 1500.0
+      sell_price: 500.0
+    requirements:
+      farming_level: 5
+    tags: [TOOL, FARMING]
+
+  - id: "aethersky:solar_hoe_of_plenty"
+    type: HOE
+    material: DIAMOND_HOE
+    display:
+      name: "Solar Hoe of Eternal Plenty"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Blessed by the sun, multiplying harvested yields dramatically."
+    tier: 5
+    stats:
+      "aethersky:farming_fortune": 150.0
+      "aethersky:speed": 25.0
+    economy:
+      buy_price: 5000000.0
+      sell_price: 1500000.0
+    requirements:
+      farming_level: 25
+    tags: [TOOL, FARMING, ENDGAME]
+
+  # FISHING RODS
+  - id: "aethersky:angler_rod"
+    type: FISHING_TOOL
+    material: FISHING_ROD
+    display:
+      name: "Novice Angler Rod"
+      rarity: COMMON
+      description:
+        - "<gray>A balanced freshwater fishing rod."
+    tier: 1
+    stats:
+      "aethersky:fishing_speed": 10.0
+      "aethersky:sea_creature_chance": 5.0
+    economy:
+      buy_price: 100.0
+      sell_price: 25.0
+    tags: [TOOL, FISHING]
+
+  - id: "aethersky:rod_of_the_sea_emperor"
+    type: FISHING_TOOL
+    material: FISHING_ROD
+    display:
+      name: "Rod of the Sea Emperor"
+      rarity: LEGENDARY
+      description:
+        - "<gold>Carved from the spine of an abyssal kraken."
+    tier: 5
+    stats:
+      "aethersky:damage": 120.0
+      "aethersky:fishing_speed": 75.0
+      "aethersky:sea_creature_chance": 35.0
+    economy:
+      buy_price: 8000000.0
+      sell_price: 2500000.0
+    requirements:
+      fishing_level: 24
+    tags: [TOOL, FISHING, ENDGAME]
+
+  # SHOVELS / SPADES
+  - id: "aethersky:rookie_shovel"
+    type: SHOVEL
+    material: STONE_SHOVEL
+    display:
+      name: "Rookie Excavation Shovel"
+      rarity: COMMON
+      description:
+        - "<gray>Standard spade for digging dirt, gravel, and sand."
+    tier: 1
+    stats:
+      "aethersky:mining_speed": 40.0
+    economy:
+      buy_price: 25.0
+      sell_price: 5.0
+    tags: [TOOL, MINING, EXCAVATION]
+
+  - id: "aethersky:terraformer_shovel"
+    type: SHOVEL
+    material: DIAMOND_SHOVEL
+    display:
+      name: "Terraformer's Grand Spade"
+      rarity: EPIC
+      description:
+        - "<dark_purple>Instantly clears a 3x3 block area of soil."
+    tier: 4
+    stats:
+      "aethersky:mining_speed": 450.0
+      "aethersky:speed": 15.0
+    economy:
+      buy_price: 350000.0
+      sell_price: 100000.0
+    requirements:
+      mining_level: 16
+    tags: [TOOL, MINING, EXCAVATION]
+
+  # MID-TIER FARMING & FISHING TOOLS
+  - id: "aethersky:pumpkin_dicer"
+    type: AXE
+    material: DIAMOND_AXE
+    display:
+      name: "Pumpkin Dicer 3000"
+      rarity: RARE
+      description:
+        - "<gray>Specialized axe that slices pumpkins into high-yield drops."
+    tier: 3
+    stats:
+      "aethersky:farming_fortune": 75.0
+    economy:
+      buy_price: 450000.0
+      sell_price: 150000.0
+    requirements:
+      farming_level: 14
+    tags: [TOOL, FARMING]
+
+  - id: "aethersky:chitin_rod"
+    type: FISHING_TOOL
+    material: FISHING_ROD
+    display:
+      name: "Chitin Sea Rod"
+      rarity: RARE
+      description:
+        - "<gray>Reinforced with hardened sea spider chitin."
+    tier: 3
+    stats:
+      "aethersky:fishing_speed": 35.0
+      "aethersky:sea_creature_chance": 18.0
+    economy:
+      buy_price: 250000.0
+      sell_price: 80000.0
+    requirements:
+      fishing_level: 12
+    tags: [TOOL, FISHING]
+
